@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Interface</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="calaulateQuantity()">
+    <div class="outer">
+        <div class="left">
+            <div class="cart-qty">
+                <b class="cart">My Cart (<span id="cartsub"></span>)</b>
+            </div>
+            <div id="container"></div>
+            <div class="place-order clearfix"><button onclick="alert('Order Placed Successfully')">PLACE ORDER</button></div>
+        </div>
+        <div class="right">
+            <div class="price-detail"><span>PRICE DETAILS</span></div>
+            <div class="price-detail-items">
+                <span>Price (<b id="noOfItems"></b> items)</span><span id="price" class="right-align"></span>
+                <span>Discount</span><span id="discount" class="free right-align"></span>
+                <span>Dilivery Charges </span><span class="free right-align">FREE</span>
+            </div>
+            <div class="price-detail-items total-amount">
+                <span>Total Amount</span><span id="totalAmount" class="right-align"></span>
+            </div>
+            <div class="saving">You will save <span id="saving"></span> on this order</div>
+        </div>
+    </div>
+    <script src=" main.js "></script>
+</body>
+
+</html>
