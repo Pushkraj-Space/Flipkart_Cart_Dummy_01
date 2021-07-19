@@ -1,0 +1,200 @@
+        body {
+            background: #ccc;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .product-container {
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .remove {
+            margin: 6px;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 0 12px;
+        }
+        
+        .place-order {
+            padding: 10px
+        }
+        
+        .place-order button {
+            float: right;
+            background: orangered;
+            padding: 10px 25px;
+            color: #fff;
+            border: 0;
+        }
+        
+        .cart-qty {
+            border-bottom: solid 1px #ccc;
+        }
+        
+        .side {
+            padding: 0px 10px 0px 10px;
+            margin: 0px 50px 0px 550px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        
+        .outer {
+            margin: 30px auto;
+            padding: 20px;
+            width: 97%;
+        }
+        
+        .left {
+            width: 70%;
+            background: #fff;
+            float: left;
+        }
+        
+        .right {
+            width: 25%;
+            background: #fff;
+            float: left;
+            margin-left: 20px
+        }
+        
+        .price-detail-items {
+            padding: 10px;
+        }
+        
+        .price-detail-items span {
+            width: 50%;
+            padding: 5px 0;
+            display: inline-block;
+        }
+        
+        .right-align {
+            text-align: right;
+        }
+        
+        .button {
+            border-radius: 50%;
+            /* border: black 0.5px; */
+        }
+        
+        .free {
+            font-family: Helvetica;
+            color: green;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        
+        .counter-container {
+            float: left;
+            clear: both;
+        }
+        
+        .cart {
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px 20px 10px 20px;
+            display: block;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        #inner {
+            margin: 2% 35% 0% 3%;
+            background-color: rgb(154, 221, 230);
+            border: 1px solid white;
+        }
+        
+        .product-top-section,
+        .counter-container {
+            padding: 20px;
+        }
+        
+        .product-disription {
+            padding-left: 10px;
+            float: left;
+        }
+        
+        input {
+            width: 25px;
+            text-align: center
+        }
+        
+        .img {
+            margin: 0 35px
+        }
+        
+        .subdiv {
+            float: left;
+        }
+        
+        .ph1 {
+            margin: 5px;
+            font-family: Helvetica;
+        }
+        
+        .ph2 {
+            font-size: small;
+            color: silver;
+        }
+        
+        .ph3 {
+            font-family: Helvetica;
+        }
+        
+        .ph4 {
+            font-size: 12px;
+            color: silver;
+            font-family: Helvetica;
+            text-decoration: line-through;
+        }
+        
+        .ph5 {
+            font-size: 11.5px;
+            color: green;
+            font-family: Helvetica;
+        }
+        
+        .symbol {
+            color: transparent;
+            text-shadow: 0 0 0 rgb(0, 128, 0);
+        }
+        
+        .hr {
+            margin: 0px;
+            padding: 0px;
+            color: #666;
+            height: 1px;
+            background: #666
+        }
+        
+        .replace {
+            margin-right: 168px;
+            font-size: small;
+            float: right;
+            color: silver;
+            font-size: small;
+        }
+        
+        #noOfItems {
+            font-weight: normal;
+        }
+        
+        .saving {
+            padding: 10px;
+            color: green;
+            font-size: 15px;
+        }
+        
+        .total-amount {
+            border-bottom: 1px dashed #666;
+            border-top: 1px dashed #666;
+        }
+        
+        .price-detail {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
